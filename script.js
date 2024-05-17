@@ -1,10 +1,10 @@
 
 function factorizar() {
-    let num = parseInt(prompt("Por favor ingrese un numero que desee factorizar:"));
+    let num = parseInt(prompt("Por favor ingrese un número que desee factorizar:"));
     let tipo = typeof num
     let result = num
     if (tipo != "number") {
-        console.log("El valor ingresado no es valido, por favor ingrese un numero")
+        console.log("El valor ingresado no es válido, por favor ingrese un número")
     } else if (num == 0 || num == 1) {
         console.log(`El resultado es: 1`)
     } else if (tipo == "number") {
