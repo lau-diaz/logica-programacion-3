@@ -1,6 +1,6 @@
 
-function factorizar() {
-    let num = parseInt(prompt("Por favor ingrese un número que desee factorizar:"));
+function factorial() {
+    let num = parseInt(prompt("Por favor ingrese un número que desee calcular su factorial:"));
     let tipo = typeof num
     let result = num
     if (tipo != "number") {
@@ -16,5 +16,5 @@ function factorizar() {
     }
 }
 
-factorizar()
+factorial()
 //En el fondo sigo teniendo algunas dudas sobre este ejercicio//
